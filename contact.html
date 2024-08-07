@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="contact">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Fabiana Salazar's Contact</title>
+</head>
+<body  class="contact">
+
+    <!--Header-->
+    <div class="rowhead">
+        <div class="column" id="head">
+            <img class="circle" src="circulo.png" alt="circulo">
+            <span id="name">Fabiana Salazar</span>&ensp;<span id="profession"> |&ensp;Web developer & Computational Chemistry Scientific</span>
+        </div>
+        <div class="column" id="socialmedia">
+            <a href="#"><img class="socialmedia" src="img/linkedin.png" alt="linkedin"></a>
+            <a href="#"><img class="socialmedia" src="img/github.png" alt="github"></a>
+            <a href="#"><img class="socialmedia" src="img/ig.png" alt="ig"></a>
+            <a href="#"><img class="socialmedia" src="img/twitter.png" alt="twitter"></a>
+            <a href="#"><img class="socialmedia" src="img/mail.png" alt="mail"></a>
+        </div>             
+    </div>
+
+    <!--Form-->
+    <main>
+        <form class="contact-form" action="#">
+            <div><h2 class="tittle">Contact me</h2></div>
+            <div class="form-row" data-validate="Please enter your name">
+                <input class="contact-form" name="name" type="text" required placeholder="Full name">
+            </div>
+            <div class="form-row" data-validate="Please enter your email">
+                <input class="contact-form" type="text" name="email" required placeholder="E-mail">
+              </div>
+              <div class="form-row" data-validate="Please enter your phone">
+                <input class="contact-form" type="text" name="phone" placeholder="Phone">
+              </div>
+            <div class="form-row">
+                <textarea class="contact-form" name="message" required placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-row">
+                <button class="full-width" type="submit">Send</button>
+            </div>  
+        </form>
+    </main>
+
+    <!--Barra de navegación-->
+    <nav>
+        <ul class="menu">
+            <li><button type="button" onclick="location.href='portfolio.html'" id="home">Home</button>&emsp;</li>
+            <li><button type="button" onclick="location.href='cv.html'" id="cv">Curriculum</button>&emsp;</li>
+            <li><button type="button" onclick="location.href='projects.html'" id="proyectos">Projects</button>&emsp;</li>
+            <li><button type="button" onclick="location.href='research.html'" id="research">Research</button>&emsp;</li>
+            <li><button type="button" onclick="location.href='aboutme.html'" id="me">About me</button>&emsp;</li>
+            <li><button type="button" onclick="location.href='contact.html'" id="contacto">Contact</button></li>
+        </ul>
+    </nav>
+
+    <div class="footer-all">
+        <p class="footer">For projects, collaborations or just to say hello, please do not hesitate to contact me!</p>
+        <p class="footer">© 2024 All rights released. In fact, copy, share, and/or send me greetings</p>
+    </div>
+
+</body>
+</html>
