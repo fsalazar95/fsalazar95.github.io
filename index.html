@@ -8,60 +8,63 @@
 </head>
 <body>
 
+<div class="flex-container">
+   
     <!--Header-->
-    <div class="rowhead">
-        <div class="column" id="head">
+    <div class="rowhead-container">
+        <div class="headleft-container">
             <img class="circle" src="img/circulo.png" alt="circulo">
             <span id="name">Fabiana Salazar</span>&ensp;<span id="profession"> |&ensp;Web developer & Computational Chemistry Scientific</span>
         </div>
-        <div class="column" id="socialmedia">
+        <div class="headright-container">
             <a href="https://www.linkedin.com/in/fabianasalazar95/"><img class="socialmedia" src="img/linkedin.png" alt="linkedin"></a>
             <a href="https://github.com/projects"><img class="socialmedia" src="img/github.png" alt="github"></a>
             <a href="https://www.instagram.com/fabiloosa/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es"><img class="socialmedia" src="img/ig.png" alt="ig"></a>
             <a href="https://x.com/Unagragea"><img class="socialmedia" src="img/twitter.png" alt="twitter"></a>
-            <a href="mailto:fabianasalazar95uy@gmail.com"><img class="socialmedia" src="img/mail.png" alt="mail"></a>
-        </div>             
+            <a href="mailto:fabianasalazar95uy@gmail.com"><img class="socialmedia" src="img/mail.png" alt="mail"></a>            
+        </div>
+
     </div>
 
     <!--Saludo de bienvenida-->
     <div>
-        <h1 class="tittle">Hi! I'm Fabiana ;)</h1>
+       <h1 class="tittle">Hi! I'm Fabiana ;)</h1>
     </div>
 
     <!--About  me-->
-    <div class="rowdescription">
+    <div class="description-container">
         <div class="column">
-            <img class="perfil" src="img/Foto.png" alt="Foto">
+           <img class="perfil-container" src="img/Foto.png" alt="Foto">
         </div>
         <div class="column">
-            <p id="description"> I have been a junior web developer since 2024 and PhD student in Chemistry. My research involved the use of computational chemistry in the search for platinum antitumor prodrugs</p>
+        <p class="perfil-container" id="description"> I have been a junior web developer since 2024 and PhD student in Chemistry. My research involved the use of computational chemistry in the search for platinum antitumor prodrugs</p>
         </div>
     </div>
 
     <!--Check my portfolio-->
-    <div class="button">
+    <div class="button-container">
         <button type="button" onclick="location.href='projects.html'" id="checkportfolio">Check my portfolio!</button>
     </div>
 
     <!--The three projects more relevants-->
-    <div class="row"> 
+    <div class="row-container"> 
         <div class="column">
-            <img class="project" src="img/carpeta.png" alt="curriculum" width=40%" height="auto">
-            <button type="button" class="project">Name project <br> Web developer</button>
+            <img class="project-container" src="img/carpeta.png" alt="curriculum">
+            <button type="button" class="project-container">Name project <br> Web developer</button>
         </div>
         <div class="column">
-            <img class="project" src="img/carpeta.png" alt="curriculum" width=40%" height="auto">
-            <button type="button" class="project">Name project <br> Web developer</button>
+            <img class="project-container" src="img/carpeta.png" alt="curriculum">
+            <button type="button" class="project-container">Name project <br> Web developer</button>
         </div>
         <div class="column">
-            <img class="project" src="img/carpeta.png" alt="curriculum" width=40%" height="auto">
-            <button type="button" class="project">Name project <br> Web developer</button>
+            <img class="project-container" src="img/carpeta.png" alt="curriculum">
+            <button type="button" class="project-container">Name project <br> Web developer</button>
         </div>
     </div>
 
-    <div class="menu">
+    <div class="menu-container">
         <nav>
-            <ul class="menu">
+            <ul class="menu-container">
                 <li><button type="button" onclick="location.href='index.html'" id="home">Home</button>&emsp;</li>
                 <li><button type="button" onclick="location.href='cv.html'" id="cv">Curriculum</button>&emsp;</li>
                 <li><button type="button" onclick="location.href='projects.html'" id="proyectos">Projects</button>&emsp;</li>
@@ -76,6 +79,8 @@
         <p class="footer">For projects, collaborations or just to say hello, please do not hesitate to contact me!</p>
         <p class="footer">© 2024 All rights released. In fact, copy, share, and/or send me greetings</p>
     </div>
-    
+
+</div>
+
 </body>
 </html>

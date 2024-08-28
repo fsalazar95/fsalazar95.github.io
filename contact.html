@@ -5,21 +5,23 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Fabiana Salazar's Contact</title>
 </head>
-<body  class="contact">
+<body>
 
+<div class="flex-container">
+   
     <!--Header-->
-    <div class="rowhead">
-        <div class="column" id="head">
-            <img class="circle" src="circulo.png" alt="circulo">
+    <div class="rowhead-container">
+        <div class="headleft-container">
+            <img class="circle" src="img/circulo.png" alt="circulo">
             <span id="name">Fabiana Salazar</span>&ensp;<span id="profession"> |&ensp;Web developer & Computational Chemistry Scientific</span>
         </div>
-        <div class="column" id="socialmedia">
-            <a href="#"><img class="socialmedia" src="img/linkedin.png" alt="linkedin"></a>
-            <a href="#"><img class="socialmedia" src="img/github.png" alt="github"></a>
-            <a href="#"><img class="socialmedia" src="img/ig.png" alt="ig"></a>
-            <a href="#"><img class="socialmedia" src="img/twitter.png" alt="twitter"></a>
-            <a href="#"><img class="socialmedia" src="img/mail.png" alt="mail"></a>
-        </div>             
+        <div class="headright-container">
+            <a href="https://www.linkedin.com/in/fabianasalazar95/"><img class="socialmedia" src="img/linkedin.png" alt="linkedin"></a>
+            <a href="https://github.com/projects"><img class="socialmedia" src="img/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/fabiloosa/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es"><img class="socialmedia" src="img/ig.png" alt="ig"></a>
+            <a href="https://x.com/Unagragea"><img class="socialmedia" src="img/twitter.png" alt="twitter"></a>
+            <a href="mailto:fabianasalazar95uy@gmail.com"><img class="socialmedia" src="img/mail.png" alt="mail"></a>            
+        </div>
     </div>
 
     <!--Form-->
@@ -45,21 +47,25 @@
     </main>
 
     <!--Barra de navegación-->
-    <nav>
-        <ul class="menu">
-            <li><button type="button" onclick="location.href='index.html'" id="home">Home</button>&emsp;</li>
-            <li><button type="button" onclick="location.href='cv.html'" id="cv">Curriculum</button>&emsp;</li>
-            <li><button type="button" onclick="location.href='projects.html'" id="proyectos">Projects</button>&emsp;</li>
-            <li><button type="button" onclick="location.href='research.html'" id="research">Research</button>&emsp;</li>
-            <li><button type="button" onclick="location.href='aboutme.html'" id="me">About me</button>&emsp;</li>
-            <li><button type="button" onclick="location.href='contact.html'" id="contacto">Contact</button></li>
-        </ul>
-    </nav>
+    <div class="menu-container">
+        <nav>
+            <ul class="menu-container">
+                <li><button type="button" onclick="location.href='index.html'" id="home">Home</button>&emsp;</li>
+                <li><button type="button" onclick="location.href='cv.html'" id="cv">Curriculum</button>&emsp;</li>
+                <li><button type="button" onclick="location.href='projects.html'" id="proyectos">Projects</button>&emsp;</li>
+                <li><button type="button" onclick="location.href='research.html'" id="research">Research</button>&emsp;</li>
+                <li><button type="button" onclick="location.href='aboutme.html'" id="me">About me</button>&emsp;</li>
+                <li><button type="button" onclick="location.href='contact.html'" id="contacto">Contact</button></li>
+            </ul>
+        </nav>
+    </div>
 
     <div class="footer-all">
         <p class="footer">For projects, collaborations or just to say hello, please do not hesitate to contact me!</p>
         <p class="footer">© 2024 All rights released. In fact, copy, share, and/or send me greetings</p>
     </div>
+
+</div>
 
 </body>
 </html>
